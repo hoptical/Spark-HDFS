@@ -158,4 +158,10 @@ You may access HDFS files in apache spark without need to any driver and directl
   val myFile = sc.textFile("hdfs://192.168.88.52:9000/user/root/data/ling-spam/ham/3-384msg1.txt", minPartitions = 10)
   ```
 
-  
+
+
+## 5. TODO
+
+- Persist docker container HDFS data
+- How to cluster hadoop hdfs
+
